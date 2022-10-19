@@ -1,24 +1,18 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const StarterApp());
+import 'package:hidden_drawer/components.dart';
 
-class StarterApp extends StatelessWidget {
-  const StarterApp({super.key});
+void main() => runApp(const HiddenDrawerApp());
+
+class HiddenDrawerApp extends StatelessWidget {
+  const HiddenDrawerApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Starter App',
-      home: HomePage(),
+      title: 'Hidden Drawer',
+      debugShowCheckedModeBanner: false,
+      home: HomeScreen(),
     );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold();
   }
 }
