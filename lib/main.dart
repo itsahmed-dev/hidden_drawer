@@ -9,10 +9,11 @@ class HiddenDrawerApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Hidden Drawer',
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      theme: ThemeData(primarySwatch: Colors.deepPurple),
+      home: HiddenDrawer(),
     );
   }
 }
