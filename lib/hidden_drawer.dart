@@ -40,6 +40,15 @@ class _HiddenDrawerState extends State<HiddenDrawer> {
         ),
         SettingScreen(),
       ),
+      ScreenHiddenDrawer(
+        ItemHiddenMenu(
+          colorLineSelected: Colors.deepPurple,
+          name: 'L o g i n',
+          baseStyle: _drawerTextStyle,
+          selectedStyle: _drawerTextStyle,
+        ),
+        LoginScreen(),
+      ),
     ];
   }
 
