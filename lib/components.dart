@@ -1,6 +1,7 @@
 // packages
 export 'package:hidden_drawer_menu/hidden_drawer_menu.dart';
 export 'package:google_nav_bar/google_nav_bar.dart';
+export 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
 // Main
 export 'package:hidden_drawer/hidden_drawer.dart';

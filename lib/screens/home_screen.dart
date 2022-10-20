@@ -43,11 +43,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 gap: 8,
                 text: 'Settings',
               ),
-              GButton(
-                icon: Icons.supervised_user_circle,
-                gap: 8,
-                text: 'Profile',
-              ),
             ],
           ),
         ),
