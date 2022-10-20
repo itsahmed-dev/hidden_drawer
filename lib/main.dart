@@ -13,7 +13,7 @@ class HiddenDrawerApp extends StatelessWidget {
       title: 'Hidden Drawer',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.deepPurple),
-      home: HomeScreen(),
+      home: HiddenDrawer(),
     );
   }
 }
